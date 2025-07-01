@@ -1,24 +1,31 @@
 ## Members
-Henry Forsyth, Computer Engineering Student (2024)
-rhforsythjr@vt.edu
+Colton Fox (cfox04@vt.edu)
 
 ## Mentor
-MENTOR NAME HERE
+ChatGPT and Google at the moment
 
 ## Current Status
-IN PROGRESS
+RESEARCH PHASE
 
 ## Project Overview
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vehicula, odio eu dictum aliquet, enim elit tempor diam, quis volutpat mi eros ut nisi. Aliquam luctus orci eget accumsan porta. Proin sollicitudin ultricies lacus et varius. Pellentesque tempor vehicula tempus. Integer semper id lorem vehicula tristique. Suspendisse nec placerat libero, eget aliquet eros. Phasellus iaculis quis lorem in ultrices. Nunc lobortis odio at sem pretium dictum. Integer sed tellus quis lorem pretium posuere.
+This project involves building a Brushless DC (BLDC) Motor Driver circuit (ESC) using 3-phase trapezoidal commutation. There are no load or torque requirements; the end goal is to simply make a motor spin and be able to programatically adjust its speed with a microcontroller.
+
+The circuit needs to use mostly discrete components, aside from MOSFET driver ICs most likely. Also, I want to use an STM32 microcontroller and program the drivers myself (no Arduino).
 
 ## Educational Value Added
 
-Vivamus dapibus iaculis dui. Nullam vitae arcu a nisi elementum semper eu eu velit. Suspendisse vel dictum lacus. Sed facilisis luctus consequat. Donec vulputate eu dolor in molestie. Maecenas pretium sem non tellus facilisis sollicitudin id ut nulla. In condimentum orci nisi, sagittis facilisis neque convallis eget. Duis ut sem cursus, placerat mi pellentesque, mollis eros. Integer efficitur blandit elit, sed egestas sem porta in. Mauris euismod nulla ac tellus tempus, eu egestas dui molestie. Proin faucibus enim quis consequat sodales. Pellentesque eleifend blandit augue et laoreet. Phasellus vel posuere nisi, ac aliquam arcu.
+Building a (mostly) discrete BLDC motor driver is a complex project that gives experience with building high-current circuits, teaches some fundamental theory behind electronics used in robotics, and writing custom drivers for the microcontroller provides some experience with bare-metal programming.
 
 ## Tasks
 
-<!-- Your Text Here. You may work with your mentor on this later when they are assigned -->
+This is my current plan, although it may change. I am admittedly stuck at the moment trying to understand how to approach this, so I will likely seek guidance.
+
+[] Understand the theory behind trapezoidal control (almost there)
+[] Determine some constraints
+[] Determine which MOSFETS I will need based on the constraints and which motor I am using
+[] Start designing
+[] TBD...
 
 ## Design Decisions
 
